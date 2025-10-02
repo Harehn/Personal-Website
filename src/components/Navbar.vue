@@ -4,8 +4,10 @@
         
     <!-- <li><a class="tab active">Home</a></li> -->
     <li><router-link to="/">Home</router-link></li>
-    <li><router-link to="/about">About</router-link></li>
-    <li style="float:right"><a class="tab">Help</a></li>
+    <li><router-link to="/projects">Projects</router-link></li>
+    <li><router-link to="/blogs">Blogs</router-link></li>
+    <li style="float:right"><router-link to="/Contact">Contact Me</router-link></li>
+    <!-- <li ><a class="tab">Help</a></li> -->
   </ul>
   </div>
 </template>
@@ -38,6 +40,7 @@ a {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
