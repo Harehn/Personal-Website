@@ -2,7 +2,9 @@
   <div class="home">
     <h1>{{ msg }}</h1>
     <div>
-      <p>Welcome to my Website! I'm Harehn Kaundun but I prefer Nitin. I am a software graduate from the university of Mcgill.</p>
+      <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. </p>
+      <p>The two areas I am most experienced in are embedded systems and web development. My favourite language is Python. </p>
+      <p>I am very passionate about programming and always looking forward to learning new things. I like creating new things, so I am open to new projects.</p>
       <img :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
     </div>
   </div>
