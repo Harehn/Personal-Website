@@ -1,5 +1,123 @@
 <template>
   <div class="projects">
     <h1>This is the Projects page</h1>
+
+    <!--This is copied-->
+    <h2 id="projects">Projects</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#1-basics">1. Basics</a></td>
+<td><a href="#6-co-op-webpage">6. Co-op Webpage</a></td>
+</tr>
+<tr>
+<td><a href="#2-scenic">2. Scenic</a></td>
+<td><a href="#7-restoapp">7. RestoApp</a></td>
+</tr>
+<tr>
+<td><a href="#3-database-cli">3. Database CLI</a></td>
+<td><a href="#8-robot-shooter">8. Robot Shooter</a></td>
+</tr>
+<tr>
+<td><a href="#4-network-design">4. Network Design</a></td>
+<td><a href="#9-left-right">9. Left-Right</a></td>
+</tr>
+<tr>
+<td><a href="#5-os-design">5. OS Design</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-basics-https-github-com-harehn-basics-">1. <a href="https://github.com/Harehn/Basics">Basics</a></h3>
+<p><em>A personal project that demonstrates the basics of a programming language</em></p>
+<p>I have created this project to act as a cheatsheet for the languages I know. 
+This makes it easy to refer back to what I know and also makes sure I have a basic grasp on a language.
+The basics include Variable Types, Objects, Type Casting, Comments, Arithmetics, Arrays,
+Logic Flow(IfElse, While/for loop etc.), Printing, User Input (Console and interactive),
+Randomness, File IO and (Higher Order) Functions. I will occasionally add more depending on the language.</p>
+<p>I also intend to add some sorting and miscellaneous code to these branches, so I can refer to them easily.</p>
+<p><strong>Languages(So Far):</strong> Python, Java, Ocaml, C, JavaScript\
+<strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p>
+<h3 id="2-scenic-https-github-com-arenbabikian-scenic-tree-master-">2. <a href="https://github.com/ArenBabikian/Scenic/tree/master">Scenic</a></h3>
+<p><em>Capstone group project – Creating test cases for autonomous driving cars</em></p>
+<p>This was my final year project for Bachelor of Software Engineering. 
+The project was initially forked by our supervisor from <a href="https://github.com/BerkeleyLearnVerify/Scenic">BerkeleyLearnVerify</a>.
+Several iterations have been made on the project since. The project&#39;s goal is to create a simulation for autonomous vehicles
+and to create test cases so that we can be more rigorous in software testing of autonomous vehicles.</p>
+<p>Our group focused on the optimisation of SAT solving and NSGA creation of test cases. </p>
+<p><strong>Supervisor:</strong> <a href="https://github.com/ArenBabikian">Aren Babikian</a> \
+<strong>Team Members:</strong> <a href="https://github.com/zhekai-jiang">Zhekai Jiang</a>, <a href="https://github.com/JryHL">Jerry Hou-Liu</a>, Oliver Huang\
+<strong>Language:</strong> Python, Bash, markdown, Json \
+<strong>Technologies:</strong> pytest, NSGA, pymoo, Poetry, Toml, Docker, Server integration(ssh, scp, etc), Json data extraction and compilation\
+<strong>Link:</strong> <a href="https://github.com/ArenBabikian/Scenic/tree/master">https://github.com/ArenBabikian/Scenic/tree/master</a></p>
+<h3 id="3-database-cli-https-github-com-harehn-comp421-">3. <a href="https://github.com/Harehn/COMP421">Database CLI</a></h3>
+<p><em>Group Project to make an interactive CLI to communicate with a remote database</em></p>
+<p>The goal of the project was to create a simple CLI to communicate with a remote DB2 database and perform
+simple insert, select and delete operations. We took necessary steps to handle SQL exceptions. 
+The initial table creations and initial insertion of data was done directly using sql files on the server side.</p>
+<p><strong>Team Member:</strong> <a href="https://github.com/davidham96">David Hamaoui</a>\
+<strong>Languages:</strong> Java, SQL(DB2)
+<strong>Technologies:</strong> Server integration(ssh, scp, etc.), relational databases\
+<strong>Link:</strong> <a href="https://github.com/Harehn/COMP421">https://github.com/Harehn/COMP421</a></p>
+<h3 id="4-network-design-https-github-com-kai-cheng-wu-ecse422-">4. <a href="https://github.com/Kai-Cheng-WU/ECSE422">Network Design</a></h3>
+<p><em>Group project to use different methods to calculate the reliability of a network</em></p>
+<p>Given an input of all possible network connections(cost and reliability), we are to find the best network given the cost.
+We do this two different way with the first method being the brute method and the second being a more optimum one.
+Our approach is to store intermediate values and thus reducing computing time.</p>
+<p><strong>Team Member:</strong> <a href="https://github.com/Kai-Cheng-WU">Kaicheng Wu</a>, <a href="https://github.com/andrei-sandor">Andrei Sador</a>\
+<strong>Languages:</strong> Python\
+<strong>Link:</strong> <a href="https://github.com/Kai-Cheng-WU/ECSE422">https://github.com/Kai-Cheng-WU/ECSE422</a></p>
+<h3 id="5-os-design-https-github-com-harehn-comp310-winter2024-">5. <a href="https://github.com/Harehn/COMP310-WINTER2024">OS Design</a></h3>
+<p><em>Group Project to simulate the basic functions of an OS</em></p>
+<p>We simulated and debugged several functionalities of an OS such as the interpreter and shell memories. 
+We also implemented program scheduling with their pcb and ready queue. 
+Finally, we implemented the file system with local files acting as disks.</p>
+<p><strong>Team Member:</strong> <a href="https://github.com/dluo6">Danlin Luo</a>\
+<strong>Languages:</strong> C \
+<strong>Technologies:</strong> Docker, MultiThreading \
+<strong>Link:</strong> <a href="https://github.com/Harehn/COMP310-WINTER2024">https://github.com/Harehn/COMP310-WINTER2024</a></p>
+<h3 id="6-co-op-webpage-https-github-com-harehn-cooperator-">6. <a href="https://github.com/Harehn/Cooperator">Co-op Webpage</a></h3>
+<p><em>A group project to make an online application website for students to register for co-ops</em></p>
+<p>The goal of the project is to create a landing page to coordinate students&#39; coops.
+We made a full stack project using continuous integration(Travis CI), a backend using Java and JavaSpring Restful Services.
+Our front end was made using Node.js, HTML and CSS(Using Bootstrap). We made tests using Mockito and followed Test driven development.
+We sued ZenHub and Github wiki(deprecated) for documentation and to follow agile methodology. 
+We used PostgreSQL and Heroku to deploy our project. </p>
+<p><em>The original code is not accessible and a mirror containing most of the code is given here.</em></p>
+<p><strong>Language:</strong> SQL, Java, Markdown \
+<strong>Technologies:</strong> Agile methodology, Zenhub, Github, Restful Services, Gradle, Travis CI, Heroku, Postgresql, JUnit, Mockito\
+<strong>Link:</strong> <a href="https://github.com/Harehn/Cooperator">https://github.com/Harehn/Cooperator</a></p>
+<h3 id="7-restoapp-https-github-com-harehn-restoapp-">7. <a href="https://github.com/Harehn/RestoApp">RestoApp</a></h3>
+<p><em>Group project to create an app for restaurant reservations</em></p>
+<p>A group project to help a restaurant with making reservations and walk-ins. The project was made with JavaFX and UML.
+A visual of the layout of the restaurant is made and the tables and seats can be selected to make reservations and assign orders.</p>
+<p><em>The original code is not accessible and a mirror containing most of the code is given here.</em></p>
+<p><strong>Language:</strong> Java (JavaFX), UML\
+<strong>Technologies:</strong> Github, MVC architecture, state diagrams, sequences diagrams\
+<strong>Link:</strong> <a href="https://github.com/Harehn/RestoApp">https://github.com/Harehn/RestoApp</a></p>
+<h3 id="8-robot-shooter">8. Robot Shooter</h3>
+<p><em>Group project to make an autonomous robot car to shoot towards target goals</em></p>
+<p>The goal of the project was to build and program a lego robot so that it can navigate a varied terrain and shoot a ping pong ball into a goal.
+We tested the various sensors and analysed test data. We used A* algorithm to navigate the terrain. The code was gone in Java with the Lejos library.</p>
+<p><strong>Language:</strong> Java, UML\
+<strong>Technologies:</strong> Github, Object Oriented paradigm, Lejos Library, Lego robot Sensors</p>
+<h3 id="9-left-right-https-harehn-github-io-testpage-">9. <a href="https://harehn.github.io/Testpage/">Left-Right</a></h3>
+<p><em>Online interactive exercise to train left-right coordination</em></p>
+<p>A simple webpage made using JavaScript to train left-right coordination.</p>
+<p><strong>Language:</strong> HTML, Javascript\
+<strong>Technologies:</strong> Github, Object Oriented paradigm, Github Pages \
+<strong>Link:</strong> <a href="https://harehn.github.io/Testpage/">https://harehn.github.io/Testpage/</a></p>
   </div>
+  
 </template>
+
+<script>
+export default {
+  name: 'Projects',
+}
+</script>
