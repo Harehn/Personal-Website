@@ -2,9 +2,9 @@
   <div class="contactview">
     <h1>This is the contact page</h1>
     <div class="cards">
-    <Contact title="Email" description="Hkaundun@gmail.com"/>
-    <Contact title="Linked In" description="www.linkedin.com/in/harehn-kaundun"/>
-    <Contact title="GitHub" description="https://github.com/Harehn"/>
+    <Contact title="Email" description="Hkaundun@gmail.com" imageName="gmail_icon.jpg" link_url="mailto:hkaundun@gmail.com"/>
+    <Contact title="Linked In" description="linkedin.com/in/harehn-kaundun" imageName="li_logo.jpg" link_url="https://www.linkedin.com/in/harehn-kaundun"/>
+    <Contact title="GitHub" description="Github.com/Harehn" imageName="matrix.webp" link_url="https://github.com/Harehn"/>
     </div>
   </div>
 </template>

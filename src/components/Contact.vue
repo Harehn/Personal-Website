@@ -5,10 +5,11 @@
     </div> -->
     <div class="maincard">
     <div class="card15">
-    <img src="https://images.pexels.com/photos/1574181/pexels-photo-1574181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="nature-pic-CSSnippets" />
+    <!-- <img src="https://images.pexels.com/photos/1574181/pexels-photo-1574181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="nature-pic-CSSnippets" /> -->
+    <img :src="require('@/assets/' + imageName + '')" alt="">
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
-    <a href="#" class="card15-btn">Read More</a>
+    <a :href="`${link_url}`" target="_blank" class="card15-btn">Contact Me</a>
     </div>
     </div>
 
@@ -19,7 +20,9 @@ export default {
   name: 'Contact',
   props: {
     title: String,
-    description: String
+    description: String,
+    imageName: String,
+    link_url: String
   }
 }
 </script>
