@@ -1,16 +1,18 @@
 <template>
   <div class="home">
-    <div class="about">
-      <h1>{{ msg }}</h1>
-      <div>
-        <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. </p>
-        <p>The two areas I am most experienced in are embedded systems and web development. My favourite language is Python. </p>
-        <p>I am very passionate about programming and always looking forward to learning new things. I like creating new things, so I am open to new projects.</p>
+    <div>
+      <h1 style="text-align: center;">{{ msg }}</h1>
+      <div class="about">
+        <div class="desc">
+          <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. </p>
+          <p>The two areas I am most experienced in are embedded systems and web development. My favourite language is Python. </p>
+          <p>I am very passionate about programming and always looking forward to learning new things. I like creating new things, so I am open to new projects.</p>
+        </div>
         <img class="profile" :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
       </div>
     </div>
-    <div class="gh">
-      <img :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
+    <div>
+      <img class="gh" :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
     </div>
 
   </div>
@@ -43,14 +45,21 @@ a {
 }
 
 .about {
-  
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.desc {
+  width: 30%;
 }
 
 .profile {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 20%;
 }
 
 .profile:hover {
@@ -58,7 +67,8 @@ a {
 }
 
 .gh {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   padding-left: 10%;
   padding-right: 10%;
 }
