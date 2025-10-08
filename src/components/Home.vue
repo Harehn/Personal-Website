@@ -2,6 +2,7 @@
   <div class="home">
     <div>
       <h1 style="text-align: center;">{{ msg }}</h1>
+      <div class="full-line"><h2 >About me</h2></div>
       <div class="about">
         <div class="desc">
           <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. </p>
@@ -11,6 +12,7 @@
         <img class="profile" :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
       </div>
     </div>
+    <div class="full-line"><h2 >GitHub</h2></div>
     <div>
       <img class="gh" :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
     </div>
@@ -49,6 +51,18 @@ a {
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+h2 {
+  /* padding-left: 3%; */
+}
+
+.full-line {
+  border-image: 
+   linear-gradient(0deg,#555657 2px,#0000 0) fill 0 /*0 0 0 100vw*/;
+  padding: 0 0;
+  margin: 0 5%;
+  /* width: fit-content; */
 }
 
 .desc {
