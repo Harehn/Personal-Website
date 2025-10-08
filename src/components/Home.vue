@@ -53,8 +53,9 @@ a {
   padding-right: 10%;
 }
 
-h2 {
-  /* padding-left: 3%; */
+h2:hover {
+  transform:translateX(0.5%);
+  /* padding-left: 1%; */
 }
 
 .full-line {
