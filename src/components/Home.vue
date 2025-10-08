@@ -7,6 +7,10 @@
       <p>I am very passionate about programming and always looking forward to learning new things. I like creating new things, so I am open to new projects.</p>
       <img :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
     </div>
+    <div>
+      <img :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
+    </div>
+
   </div>
 </template>
 
