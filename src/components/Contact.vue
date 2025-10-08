@@ -3,12 +3,13 @@
     <!-- <div>
       <img :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
     </div> -->
-
+    <div class="maincard">
     <div class="card15">
     <img src="https://images.pexels.com/photos/1574181/pexels-photo-1574181.jpeg?auto=compress&cs=tinysrgb&w=600" alt="nature-pic-CSSnippets" />
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
     <a href="#" class="card15-btn">Read More</a>
+    </div>
     </div>
 
 </template>
