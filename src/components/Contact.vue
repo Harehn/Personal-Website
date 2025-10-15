@@ -32,6 +32,7 @@ export default {
 
 .card15 {
   width: 180px;
+  /* width: (180/956)% */
   height: 264px;
   padding: 4px;
   border-radius: 6px;
@@ -40,6 +41,7 @@ export default {
   font-family: "Inter", sans-serif;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 0.6s ease-in-out;
+  margin-top: 20px;
 }
 
 .card15:hover {

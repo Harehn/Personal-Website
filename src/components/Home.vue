@@ -48,6 +48,7 @@ a {
 
 .about {
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
@@ -68,7 +69,7 @@ h2:hover {
 
 .desc {
   width: 40%;
-  /* min-width: 00px; */
+  min-width: 300px;
 }
 
 .profile {
@@ -77,7 +78,7 @@ h2:hover {
   padding: 5px;
   width: 20%;
   height: 80%;
-  /* margin: auto; */
+  min-width: 200px;
 }
 
 .profile:hover {

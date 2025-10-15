@@ -38,15 +38,17 @@ export default {
 
 <style scoped>
 .contactview{
-  align-content: center;
-  text-align: center;
+  overflow:auto;
+  padding-bottom:5%
+  /* align-content: center;
+  text-align: center; */
 }
 .cards{
-  /* width: 80%; */
   padding-left: 15%;
   padding-right:15%;
   padding-top:8%;
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-around;
   align-content: center;
 }
