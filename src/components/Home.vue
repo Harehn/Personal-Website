@@ -67,7 +67,8 @@ h2:hover {
 }
 
 .desc {
-  width: 30%;
+  width: 40%;
+  /* min-width: 00px; */
 }
 
 .profile {
@@ -75,6 +76,8 @@ h2:hover {
   border-radius: 4px;
   padding: 5px;
   width: 20%;
+  height: 80%;
+  /* margin: auto; */
 }
 
 .profile:hover {
