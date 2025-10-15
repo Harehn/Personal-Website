@@ -1,6 +1,5 @@
 <template>
   <div class="contactview">
-    <h1>This is the contact page</h1>
     <div class="cards">
     <Contact title="Email" description="Hkaundun@gmail.com" imageName="gmail_icon.jpg" link_url="mailto:hkaundun@gmail.com"/>
     <Contact title="Linked In" description="linkedin.com/in/harehn-kaundun" imageName="li_logo.jpg" link_url="https://www.linkedin.com/in/harehn-kaundun"/>
@@ -30,7 +29,7 @@ export default {
   /* width: 80%; */
   padding-left: 15%;
   padding-right:15%;
-  padding-top:3%;
+  padding-top:8%;
   display: flex;
   justify-content: space-around;
   align-content: center;

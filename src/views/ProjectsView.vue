@@ -1,6 +1,5 @@
 <template>
   <div class="projects">
-    <h1>This is the Projects page</h1>
 
     <!--This is copied-->
     <h2 id="projects">Projects</h2>
