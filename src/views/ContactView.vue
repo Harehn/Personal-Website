@@ -1,9 +1,25 @@
 <template>
   <div class="contactview">
     <div class="cards">
-    <Contact title="Email" description="Hkaundun@gmail.com" imageName="email2.jpg" link_url="mailto:hkaundun@gmail.com"/>
-    <Contact title="Linked In" description="linkedin.com/in/harehn-kaundun" imageName="handshake.jpg" link_url="https://www.linkedin.com/in/harehn-kaundun"/>
-    <Contact title="GitHub" description="Github.com/Harehn" imageName="code.jpg" link_url="https://github.com/Harehn"/>
+    
+      <Contact 
+        title="Email" 
+        description="Feel free to send me any professional inquiries." 
+        imageName="email2.jpg" 
+        link_url="mailto:hkaundun@gmail.com"/>
+    
+      <Contact 
+        title="Linked In" 
+        description="I would love to connect with you on Linked In." 
+        imageName="handshake.jpg" 
+        link_url="https://www.linkedin.com/in/harehn-kaundun"/>
+      
+      <Contact 
+        title="GitHub" 
+        description="Explore my codebase and the projects I am working on." 
+        imageName="code.jpg" 
+        link_url="https://github.com/Harehn"/>
+
     </div>
   </div>
 </template>
