@@ -43,8 +43,8 @@ ul {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
-  overflow: hidden;
+  padding: 0 0.5% 0 0;
+  overflow: auto;
   background-color: #555;  
   position: -webkit-sticky; /* Safari */
   position: sticky;
