@@ -2,7 +2,7 @@
   <div class="projects">
 
     <!--This is copied-->
-    <h2 id="projects">Projects</h2>
+    <h1>Projects</h1>
 <table>
 <thead>
 <tr>
@@ -120,3 +120,17 @@ export default {
   name: 'Projects',
 }
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.projects{
+  padding:20px;
+}
+
+h1 {
+  text-align:center;
+}
+
+
+
+</style>
