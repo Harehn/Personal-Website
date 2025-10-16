@@ -22,7 +22,6 @@
 
 <script>
 // @ is an alias to /src
-// import TrailLine from '@/components/TrailLine.vue';
 import Trail from '@/components/Trail.vue';
 export default {
   name: 'Home',
