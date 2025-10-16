@@ -59,7 +59,7 @@ and to create test cases so that we can be more rigorous in software testing of 
 <strong>Team Members:</strong> <a href="https://github.com/zhekai-jiang">Zhekai Jiang</a>, <a href="https://github.com/JryHL">Jerry Hou-Liu</a>, Oliver Huang<br>
 <strong>Language:</strong> Python, Bash, markdown, Json <br>
 <strong>Technologies:</strong> pytest, NSGA, pymoo, Poetry, Toml, Docker, Server integration(ssh, scp, etc), Json data extraction and compilation <br>
-<strong>Link:</strong> <a href="https://github.com/ArenBabikian/Scenic/tree/master">https://github.com/ArenBabikian/Scenic/tree/master</a></p>
+<strong>Link:</strong> <a href="https://github.com/ArenBabikian/Scenic/tree/master">github.com/ArenBabikian/Scenic/tree/master</a></p>
 </div>
 
 <!-- <h3 id="3-database-cli">3. <a href="https://github.com/Harehn/COMP421">Database CLI</a></h3> -->
@@ -174,6 +174,8 @@ h1 {
 .description {
   margin-left: 7%;
   margin-right: 7%;
+  display:flex;
+  flex-wrap:wrap;
 }
 #toc {
   margin-left: auto;
