@@ -32,7 +32,6 @@ export default {
 
 .card15 {
   width: 180px;
-  /* width: (180/956)% */
   height: 264px;
   padding: 4px;
   border-radius: 6px;
