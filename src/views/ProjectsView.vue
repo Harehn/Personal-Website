@@ -42,8 +42,10 @@ The basics include Variable Types, Objects, Type Casting, Comments, Arithmetics,
 Logic Flow(IfElse, While/for loop etc.), Printing, User Input (Console and interactive),
 Randomness, File IO and (Higher Order) Functions. I will occasionally add more depending on the language.</p>
 <p>I also intend to add some sorting and miscellaneous code to these branches, so I can refer to them easily.</p>
-<p><strong>Languages(So Far):</strong> Python, Java, Ocaml, C, JavaScript<br>
+<p><br><b>Languages(So Far):</b> Python, Java, Ocaml, C, JavaScript<br>
 <strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p>
+<!-- <p><br><b>Languages(So Far):</b> Python, Java, Ocaml, C, JavaScript<br>
+<strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p> -->
 </div>
 
 <!-- <h3 id="2-scenic">2. <a href="https://github.com/ArenBabikian/Scenic/tree/master">Scenic</a></h3> -->
@@ -174,12 +176,18 @@ h1 {
 .description {
   margin-left: 7%;
   margin-right: 7%;
-  display:flex;
-  flex-wrap:wrap;
+  /* display: flex;
+  flex-wrap:wrap; */
 }
 #toc {
   margin-left: auto;
   margin-right: auto;
+}
+
+p {
+  /* display:block; */
+  /* text-align: left; */
+  
 }
 
 
