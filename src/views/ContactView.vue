@@ -39,7 +39,8 @@ export default {
 <style scoped>
 .contactview{
   overflow:auto;
-  padding-bottom:5%
+  padding-bottom:5%;
+  margin-bottom:13%;
   /* align-content: center;
   text-align: center; */
 }
