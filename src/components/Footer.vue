@@ -36,6 +36,7 @@ export default {
 <style scoped>
 
 .footer{
+    margin-top: 1%;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -66,13 +67,11 @@ color:#fff;
 }
 
 .footer .row ul li{
-/* display:inline-block; */
 list-style-type: none;
-/* margin:0px 30px; */
 }
 
 .links {
-    padding-top: 7px;
+    padding-top: 1.5%;
     padding-bottom:2%;
     
     padding-left: 30%;
