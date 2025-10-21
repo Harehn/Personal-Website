@@ -13,6 +13,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h2{
+  transition:0.2s;
+}
 
 h2:hover {
   transform:translateX(0.5%);

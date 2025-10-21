@@ -61,6 +61,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition:0.1s;
 }
 
 /* Change the link color to #111 (black) on hover */
