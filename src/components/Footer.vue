@@ -11,9 +11,12 @@
             <li><a href="#">Career</a></li>
         </ul> -->
         <div class="links">
-            <a href="#">About Website</a>
+          <router-link to="/wip">About Website</router-link>
+          <router-link to="/wip">About Me</router-link>
+          <router-link to="/contact">Contact Me</router-link>
+            <!-- <a href="#">About Website</a>
             <a href="#">About Me</a>
-            <a href="#">Contact Me</a>
+            <a href="#">Contact Me</a> -->
         </div>
 
         <!-- </div> -->
@@ -60,6 +63,9 @@ a{
 text-decoration:none;
 color:gray;
 transition:0.5s;
+padding-top:1%;
+padding-right:1%;
+padding-left:1%;
 }
 
 a:hover{

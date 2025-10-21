@@ -51,12 +51,19 @@ a {
   color: #42b983;
 }
 
+.about{
+  /* border: 5px groove #999;
+  border-radius: 10px; */
+}
+
 .about {
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left:9%;
+  margin-right:9%;
 }
 
 .desc {
@@ -79,9 +86,15 @@ a {
 
 .gh {
   width: 80%;
-  margin: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-right:10%;
+  margin-left:10%;
+  /* margin: auto; */
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.gh {
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
 
 </style>
