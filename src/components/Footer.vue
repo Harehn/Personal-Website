@@ -11,9 +11,9 @@
             <li><a href="#">Career</a></li>
         </ul> -->
         <div class="links">
-            <a href="#">Contact us</a>
-            <a href="#">Our Services</a>
-            <a href="#">Privacy Policy</a>
+            <a href="#">About Website</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact Me</a>
         </div>
 
         <!-- </div> -->
