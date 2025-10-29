@@ -1,5 +1,6 @@
 <template>
     <div class="website">
+        <h1 style="text-align: center;">About Website</h1>
         <Trail header="Welcome to this website"/>
         <div class="description">
             Welcome to my personal website! This is a work in progress where I will keep my professional information up to date and share some interesting projects and such. 
