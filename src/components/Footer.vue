@@ -11,7 +11,7 @@
             <li><a href="#">Career</a></li>
         </ul> -->
         <div class="links">
-          <router-link to="/wip">About Website</router-link>
+          <router-link to="/website">About Website</router-link>
           <router-link to="/wip">About Me</router-link>
           <router-link to="/contact">Contact Me</router-link>
             <!-- <a href="#">About Website</a>

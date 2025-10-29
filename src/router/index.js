@@ -29,7 +29,13 @@ const routes = [
     path: '/wip',
     name: 'wip',
     component: () => import(/* webpackChunkName: "contact" */ '../views/WipView.vue')
-  }
+  },
+  {
+    path: '/website',
+    name: 'website',
+    component: () => import(/* webpackChunkName: "contact" */ '../views/WebsiteView.vue')
+  },
+
 ]
 
 const router = createRouter({
