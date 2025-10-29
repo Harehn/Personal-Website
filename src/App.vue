@@ -28,6 +28,14 @@ html,
 body {
   height: 100vh;
   width: 100vw;
+
+  
+    /* width: 100%;
+    height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
   margin: 0;
   display:flex;
   flex-direction: column;
