@@ -78,6 +78,7 @@ a {
   width: 20%;
   height: 80%;
   min-width: 200px;
+  transition: 0.1s;
 }
 
 .profile:hover {
