@@ -62,8 +62,22 @@ a {
   justify-content: space-between;
   padding-left: 1%;
   padding-right: 1%;
+  padding-top:0.5%;
+  padding-bottom: 0.5%;
   margin-left:9%;
   margin-right:9%;
+
+  border: 2px solid #ddd;
+  border-radius: 20px;
+}
+
+.about:hover{
+  padding-left: 1.05%;
+  padding-right: 1.05%;
+  padding-top:0.7%;
+  padding-bottom: 0.7%;
+  /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */
+  border-color: #7c788f;
 }
 
 .desc {
