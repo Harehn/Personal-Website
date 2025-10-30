@@ -5,9 +5,9 @@
       <Trail header="About Me"/>
       <div class="about">
         <div class="desc">
-          <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. </p>
-          <p>The two areas I am most experienced in are embedded systems and web development. My favourite language is Python. </p>
-          <p>I am very passionate about programming and always looking forward to learning new things. I like creating new things, so I am open to new projects.</p>
+          <p>Welcome to my Website! I'm Harehn Kaundun; my preferred name is Nitin. I earnt my bachelors in Software Engineering from the University of Mcgill, Canada. My passion and skill in programming has been developed through my university experience, personal projects and my work experience.</p>
+          <p>The two areas I am most experienced in are embedded systems and full-stack web development. However, I also have decent experience in app development and QA.</p> <p> My favourite language is Python as I like the intuitive syntax and abundant community libraries. I have also dabbled in other languages: C/C++ (for embedded systems), Javascript (in Web Development ) and Java (for rest API and app development).</p>
+          <p>I have several projects hosted on my GitHub across various fields. I am currently working on improving this website and revisiting my old code. I like creating new things, so I am open to new projects.</p>
         </div>
         <img class="profile" :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
       </div>
