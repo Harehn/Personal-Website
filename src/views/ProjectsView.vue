@@ -4,12 +4,12 @@
     <!--This is copied-->
     <h1>Projects</h1>
 <table id="toc">
-<thead>
+<!-- <thead>
 <tr>
 <th></th>
 <th></th>
 </tr>
-</thead>
+</thead> -->
 <tbody>
 <tr>
 <td><a href="#1-basics">1. Basics</a></td>
@@ -198,10 +198,33 @@ h1 {
   border-color: #7c788f;
 }
 
-#toc {
+/* #toc {
   margin-left: auto;
   margin-right: auto;
+} */
+ #toc {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  /* padding: 0px; */
+  padding-left:1%;
+  padding-right:1%;
 }
+
+#toc td, #preset_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#toc tr:nth-child(even){background-color: #f2f2f2;}
+
+#toc td:hover {background-color: #ddd;}
+
 
 p {
   /* display:block; */
