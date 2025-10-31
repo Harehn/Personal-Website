@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div>
+    <div>      
       <h1 style="text-align: center;">{{ msg }}</h1>
       <Trail header="About Me"/>
       <div class="about">
@@ -23,13 +23,15 @@
 <script>
 // @ is an alias to /src
 import Trail from '@/components/Trail.vue';
+import Htext from '@/components/Htext.vue';
 export default {
   name: 'Home',
   props: {
     msg: String
   },
   components: {
-    Trail
+    Trail,
+    Htext
   }
 }
 </script>
