@@ -12,44 +12,53 @@
 </thead> -->
 <tbody>
 <tr>
-<td><a href="#1-basics">1. Basics</a></td>
-<td><a href="#6-co-op-webpage">6. Co-op Webpage</a></td>
+<td><a href="#1-Diceroller">1. DiceRoller Website</a></td>
+<td><a href="#6-os-design">6. OS Design</a></td>
 </tr>
 <tr>
-<td><a href="#2-scenic">2. Scenic</a></td>
-<td><a href="#7-restoapp">7. RestoApp</a></td>
+<td><a href="#2-basics">2. Basics</a></td>
+<td><a href="#7-co-op-webpage">7. Co-op Webpage</a></td>
 </tr>
 <tr>
-<td><a href="#3-database-cli">3. Database CLI</a></td>
-<td><a href="#8-robot-shooter">8. Robot Shooter</a></td>
+<td><a href="#3-scenic">3. Scenic</a></td>
+<td><a href="#8-restoapp">8. RestoApp</a></td>
 </tr>
 <tr>
-<td><a href="#4-network-design">4. Network Design</a></td>
-<td><a href="#9-left-right">9. Left-Right</a></td>
+<td><a href="#4-database-cli">4. Database CLI</a></td>
+<td><a href="#9-robot-shooter">9. Robot Shooter</a></td>
 </tr>
 <tr>
-<td><a href="#5-os-design">5. OS Design</a></td>
-</tr>
+<td><a href="#5-network-design">5. Network Design</a></td>
+<!-- <td><a href="#9-left-right">9. Left-Right</a></td> -->
+ </tr>
 </tbody>
 </table>
+
+<Trail header="1. Diceroller Website" id="1-Diceroller" href="https://github.com/Harehn/Basics"/>
+<div class="description">
+<p><em>A fullstack website to make dice rolls by parsing WOTC style formatted rolls</em></p>
+
+<p>The app features a Flask backend and a Vue frontend. Presets (accessed through the NavBar), which are sets of dice, are saved and the roll history can be viewed and cleared.</p>
+
+<strong>Languages:</strong> Python, HTML, JavaScript <br>
+<strong>Technologies:</strong> Vue JS, Flask, Render(deployment), gunicorn, npm <br>
+<strong>Link:</strong> <a href="https://github.com/Harehn/DiceRoller"> https://github.com/Harehn/DiceRoller </a>
+
+</div>
+
 <!-- <h3 id="1-basics">1. <a href="https://github.com/Harehn/Basics">Basics</a></h3> -->
-<Trail header="1. Basics" id="1-basics" href="https://github.com/Harehn/Basics"/>
+<Trail header="2. Basics" id="2-basics" href="https://github.com/Harehn/Basics"/>
 <div class="description">
 <p><em>A personal project that demonstrates the basics of a programming language</em></p>
-<p>I have created this project to act as a cheatsheet for the languages I know. 
-This makes it easy to refer back to what I know and also makes sure I have a basic grasp on a language.
-The basics include Variable Types, Objects, Type Casting, Comments, Arithmetics, Arrays,
-Logic Flow(IfElse, While/for loop etc.), Printing, User Input (Console and interactive),
-Randomness, File IO and (Higher Order) Functions. I will occasionally add more depending on the language.</p>
-<p>I also intend to add some sorting and miscellaneous code to these branches, so I can refer to them easily.</p>
-<p><br><b>Languages(So Far):</b> Python, Java, Ocaml, C, JavaScript<br>
+<p>This project is for practice and easy reference of the basics The basics include (not limited to) OOP, Typing, Arrays, Logic Flow, (File) IO, Randomness and (Higher Order) Functions.</p>
+<p><br><b>Languages(So Far):</b> Python, Java, Ocaml, C, C++, JavaScript<br>
 <strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p>
 <!-- <p><br><b>Languages(So Far):</b> Python, Java, Ocaml, C, JavaScript<br>
 <strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p> -->
 </div>
 
 <!-- <h3 id="2-scenic">2. <a href="https://github.com/ArenBabikian/Scenic/tree/master">Scenic</a></h3> -->
-<Trail header="2. Scenic" id="2-scenic"/>
+<Trail header="3. Scenic" id="3-scenic"/>
 <div class="description">
 <p><em>Capstone group project – Creating test cases for autonomous driving cars</em></p>
 <p>This was my final year project for Bachelor of Software Engineering. 
@@ -65,7 +74,7 @@ and to create test cases so that we can be more rigorous in software testing of 
 </div>
 
 <!-- <h3 id="3-database-cli">3. <a href="https://github.com/Harehn/COMP421">Database CLI</a></h3> -->
-<Trail header="3. Database CLI" id="3-database-cli"/>
+<Trail header="4. Database CLI" id="4-database-cli"/>
 <div class="description">
 <p><em>Group Project to make an interactive CLI to communicate with a remote database</em></p>
 <p>The goal of the project was to create a simple CLI to communicate with a remote DB2 database and perform
@@ -78,7 +87,7 @@ The initial table creations and initial insertion of data was done directly usin
 </div>
 
 <!-- <h3 id="4-network-design">4. <a href="https://github.com/Kai-Cheng-WU/ECSE422">Network Design</a></h3> -->
-<Trail header="4. Network Design" id="4-network-design"/>
+<Trail header="5. Network Design" id="5-network-design"/>
 <div class="description">
 <p><em>Group project to use different methods to calculate the reliability of a network</em></p>
 <p>Given an input of all possible network connections(cost and reliability), we are to find the best network given the cost.
@@ -90,7 +99,7 @@ Our approach is to store intermediate values and thus reducing computing time.</
 </div>
 
 <!-- <h3 id="5-os-design">5. <a href="https://github.com/Harehn/COMP310-WINTER2024">OS Design</a></h3> -->
-<Trail header="5. OS Design" id="5-os-design"/>
+<Trail header="6. OS Design" id="6-os-design"/>
 <div class="description">
 <p><em>Group Project to simulate the basic functions of an OS</em></p>
 <p>We simulated and debugged several functionalities of an OS such as the interpreter and shell memories. 
@@ -103,7 +112,7 @@ Finally, we implemented the file system with local files acting as disks.</p>
 </div>
 
 <!-- <h3 id="6-co-op-webpage">6. <a href="https://github.com/Harehn/Cooperator">Co-op Webpage</a></h3> -->
-<Trail header="6. Co-op Webpage" id="6-co-op-webpage"/>
+<Trail header="7. Co-op Webpage" id="7-co-op-webpage"/>
 <div class="description">
 <p><em>A group project to make an online application website for students to register for co-ops</em></p>
 <p>The goal of the project is to create a landing page to coordinate students&#39; coops.
@@ -118,7 +127,7 @@ We used PostgreSQL and Heroku to deploy our project. </p>
 </div>
 
 <!-- <h3 id="7-restoapp">7. <a href="https://github.com/Harehn/RestoApp">RestoApp</a></h3> -->
-<Trail header="7. RestoApp" id="7-restoapp"/>
+<Trail header="8. RestoApp" id="8-restoapp"/>
 <div class="description">
 <p><em>Group project to create an app for restaurant reservations</em></p>
 <p>A group project to help a restaurant with making reservations and walk-ins. The project was made with JavaFX and UML.
@@ -130,7 +139,7 @@ A visual of the layout of the restaurant is made and the tables and seats can be
 </div>
 
 <!-- <h3 id="8-robot-shooter">8. Robot Shooter</h3> -->
-<Trail header="8. Robot Shooter" id="8-robot-shooter"/>
+<Trail header="9. Robot Shooter" id="9-robot-shooter"/>
 <div class="description">
 <p><em>Group project to make an autonomous robot car to shoot towards target goals</em></p>
 <p>The goal of the project was to build and program a lego robot so that it can navigate a varied terrain and shoot a ping pong ball into a goal.
@@ -139,7 +148,9 @@ We tested the various sensors and analysed test data. We used A* algorithm to na
 <strong>Technologies:</strong> Github, Object Oriented paradigm, Lejos Library, Lego robot Sensors</p>
 </div>
 
+<!-- REMOVED LEFT-RIGHT-->
 <!-- <h3 id="9-left-right">9. <a href="https://harehn.github.io/Testpage/">Left-Right</a></h3> -->
+<!--
 <Trail header="9. Left-Right" id="9-left-right"/>
 <div class="description">
 <p><em>Online interactive exercise to train left-right coordination</em></p>
@@ -148,7 +159,9 @@ We tested the various sensors and analysed test data. We used A* algorithm to na
 <strong>Technologies:</strong> Github, Object Oriented paradigm, Github Pages <br>
 <strong>Link:</strong> <a href="https://harehn.github.io/Testpage/">https://harehn.github.io/Testpage/</a></p>
 </div>
+-->
 </div>
+
   
 </template>
 
