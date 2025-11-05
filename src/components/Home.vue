@@ -109,10 +109,16 @@ a {
   /* margin: auto; */
   padding-left: 1%;
   padding-right: 1%;
+  transition:2ms;
 }
 .gh {
   border: 2px solid #ccc;
   border-radius: 5px;
+}
+
+.gh:hover{
+  border-color: #7c788f;
+  transform:translateY(1.2px);
 }
 
 </style>
