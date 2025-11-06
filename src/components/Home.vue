@@ -9,12 +9,12 @@
           <p>The two areas I am most experienced in are embedded systems and full-stack web development. However, I also have decent experience in app development and QA.</p> <p> My favourite language is Python as I like the intuitive syntax and abundant community libraries. I have also dabbled in other languages: C/C++ (for embedded systems), Javascript (in Web Development ) and Java (for rest API and app development).</p>
           <p>I have several projects hosted on my GitHub across various fields. I am currently working on improving this website and revisiting my old code. I like creating new things, so I am open to new projects.</p>
         </div>
-        <img class="profile" :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony">
+        <img class="profile" :src="require(`@/assets/Ring.jpg`)" alt="Picture of me at my Iron Ring Ceremony" title="Picture of me at my Iron Ring Ceremony">
       </div>
     </div>
     <Trail header="GitHub"/>
     <div>
-      <img class="gh" :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub">
+      <img class="gh" :src="require(`@/assets/Github.jpg`)" alt="Screenshot of My GitHub" title="Screenshot of My GitHub">
     </div>
 
   </div>
