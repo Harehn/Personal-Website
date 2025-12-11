@@ -12,29 +12,29 @@
 </thead> -->
 <tbody>
 <tr>
-<td><a href="#1-Diceroller">1. DiceRoller Website</a></td>
+<td><a href="#1-diceroller">1. DiceRoller Website</a></td>
 <td><a href="#6-os-design">6. OS Design</a></td>
 </tr>
 <tr>
-<td><a href="#2-basics">2. Basics</a></td>
+<td><a href="#2-dashboard">2. Dashboard</a></td>
 <td><a href="#7-co-op-webpage">7. Co-op Webpage</a></td>
 </tr>
 <tr>
-<td><a href="#3-scenic">3. Scenic</a></td>
+<td><a href="#3-basics">3. Basics</a></td>
 <td><a href="#8-restoapp">8. RestoApp</a></td>
 </tr>
 <tr>
-<td><a href="#4-database-cli">4. Database CLI</a></td>
+<td><a href="#4-esp32">4. General Purpose ESP 32</a></td>
 <td><a href="#9-robot-shooter">9. Robot Shooter</a></td>
 </tr>
 <tr>
-<td><a href="#5-network-design">5. Network Design</a></td>
-<!-- <td><a href="#9-left-right">9. Left-Right</a></td> -->
+<td><a href="#5-scenic">5. Scenic</a></td>
+<td><a href="#10-database-cli">10. Database CLI</a></td>
  </tr>
 </tbody>
 </table>
 
-<Trail header="1. Diceroller Website" id="1-Diceroller" href="https://github.com/Harehn/Basics"/>
+<Trail header="1. Diceroller Website" id="1-diceroller"/>
 <div class="description">
 <p><em>A fullstack website to make dice rolls by parsing WOTC style formatted rolls</em></p>
 
@@ -42,12 +42,26 @@
 
 <strong>Languages:</strong> Python, HTML, JavaScript <br>
 <strong>Technologies:</strong> Vue JS, Flask, Render(deployment), gunicorn, npm <br>
-<strong>Link:</strong> <a href="https://github.com/Harehn/DiceRoller"> https://github.com/Harehn/DiceRoller </a>
+<strong>Link:</strong> <a href="https://github.com/Harehn/DiceRoller"> https://github.com/Harehn/DiceRoller </a> <br>
+<strong>Website Link:</strong> <a href="https://dicerollers.onrender.com/"> https://dicerollers.onrender.com/ </a>
+</div>
 
+<Trail header="2. Dashboard" id="2-dashboard"/>
+<div class="description">
+<p><em>A website acting as my personal dashboard with notetaking and getting weather and news amongst other things</em></p>
+
+<p>This React website is made to act as a one place stop instead of using several apps or websites.
+  React is used to make a todo feature; google calendar and music player are embedded in. RSS feeds are pinged for word of the day and news and so on.
+</p>
+
+<strong>Languages:</strong> HTML, CSS, JavaScript <br>
+<strong>Technologies:</strong> React JS, npm, RSS <br>
+<strong>Link:</strong> <a href="https://github.com/Harehn/Dashboard"> https://github.com/Harehn/Dashboard </a><br>
+<strong>Website Link:</strong> <a href="https://dashboard-s813.onrender.com/"> https://dashboard-s813.onrender.com/ </a>
 </div>
 
 <!-- <h3 id="1-basics">1. <a href="https://github.com/Harehn/Basics">Basics</a></h3> -->
-<Trail header="2. Basics" id="2-basics" href="https://github.com/Harehn/Basics"/>
+<Trail header="3. Basics" id="3-basics" href="https://github.com/Harehn/Basics"/>
 <div class="description">
 <p><em>A personal project that demonstrates the basics of a programming language</em></p>
 <p>This project is for practice and easy reference of the basics The basics include (not limited to) OOP, Typing, Arrays, Logic Flow, (File) IO, Randomness and (Higher Order) Functions.</p>
@@ -57,8 +71,23 @@
 <strong>Link:</strong> <a href="https://github.com/Harehn/Basics">https://github.com/Harehn/Basics</a> </p> -->
 </div>
 
+<Trail header="4. General Purpose ESP32" id="4-esp32"/>
+<div class="description">
+<p><em>A template for using ESP32 with several basic features</em></p>
+
+<p>This program aims at making a general purpose ESP32. This serves as a base when making more complicated ESP32 and also explores the different functionalities of the ESP32.
+  The present functionalities include internal temperature check, I2C addressing, RTC(Real Time Clock), Web Server, EEPROM, LEDc/PWM output, Bluetooth scanning and simple GPIO functionality.
+  Extra attention has been put to comments and documentation and modularisation.
+</p>
+
+<strong>Languages:</strong> C++ <br>
+<strong>Technologies:</strong> GPIO, I2C, Embedded Programming <br>
+<strong>Link:</strong> <a href="https://github.com/Harehn/Esp-32-General-Purpose"> https://github.com/Harehn/Esp-32-General-Purpose </a>
+
+</div>
+
 <!-- <h3 id="2-scenic">2. <a href="https://github.com/ArenBabikian/Scenic/tree/master">Scenic</a></h3> -->
-<Trail header="3. Scenic" id="3-scenic"/>
+<Trail header="5. Scenic" id="5-scenic"/>
 <div class="description">
 <p><em>Capstone group project – Creating test cases for autonomous driving cars</em></p>
 <p>This was my final year project for Bachelor of Software Engineering. 
@@ -73,20 +102,7 @@ and to create test cases so that we can be more rigorous in software testing of 
 <strong>Link:</strong> <a href="https://github.com/ArenBabikian/Scenic/tree/master">github.com/ArenBabikian/Scenic/tree/master</a></p>
 </div>
 
-<!-- <h3 id="3-database-cli">3. <a href="https://github.com/Harehn/COMP421">Database CLI</a></h3> -->
-<Trail header="4. Database CLI" id="4-database-cli"/>
-<div class="description">
-<p><em>Group Project to make an interactive CLI to communicate with a remote database</em></p>
-<p>The goal of the project was to create a simple CLI to communicate with a remote DB2 database and perform
-simple insert, select and delete operations. We took necessary steps to handle SQL exceptions. 
-The initial table creations and initial insertion of data was done directly using sql files on the server side.</p>
-<p><strong>Team Member:</strong> <a href="https://github.com/davidham96">David Hamaoui</a><br>
-<strong>Languages:</strong> Java, SQL(DB2) <br>
-<strong>Technologies:</strong> Server integration(ssh, scp, etc.), relational databases<br>
-<strong>Link:</strong> <a href="https://github.com/Harehn/COMP421">https://github.com/Harehn/COMP421</a></p>
-</div>
-
-<!-- <h3 id="4-network-design">4. <a href="https://github.com/Kai-Cheng-WU/ECSE422">Network Design</a></h3> -->
+<!-- <h3 id="4-network-design">4. <a href="https://github.com/Kai-Cheng-WU/ECSE422">Network Design</a></h3>
 <Trail header="5. Network Design" id="5-network-design"/>
 <div class="description">
 <p><em>Group project to use different methods to calculate the reliability of a network</em></p>
@@ -96,7 +112,7 @@ Our approach is to store intermediate values and thus reducing computing time.</
 <p><strong>Team Member:</strong> <a href="https://github.com/Kai-Cheng-WU">Kaicheng Wu</a>, <a href="https://github.com/andrei-sandor">Andrei Sador</a><br>
 <strong>Languages:</strong> Python<br>
 <strong>Link:</strong> <a href="https://github.com/Kai-Cheng-WU/ECSE422">https://github.com/Kai-Cheng-WU/ECSE422</a></p>
-</div>
+</div> -->
 
 <!-- <h3 id="5-os-design">5. <a href="https://github.com/Harehn/COMP310-WINTER2024">OS Design</a></h3> -->
 <Trail header="6. OS Design" id="6-os-design"/>
@@ -146,6 +162,19 @@ A visual of the layout of the restaurant is made and the tables and seats can be
 We tested the various sensors and analysed test data. We used A* algorithm to navigate the terrain. The code was gone in Java with the Lejos library.</p>
 <p><strong>Language:</strong> Java, UML<br>
 <strong>Technologies:</strong> Github, Object Oriented paradigm, Lejos Library, Lego robot Sensors</p>
+</div>
+
+<!-- <h3 id="3-database-cli">3. <a href="https://github.com/Harehn/COMP421">Database CLI</a></h3> -->
+<Trail header="10. Database CLI" id="10-database-cli"/>
+<div class="description">
+<p><em>Group Project to make an interactive CLI to communicate with a remote database</em></p>
+<p>The goal of the project was to create a simple CLI to communicate with a remote DB2 database and perform
+simple insert, select and delete operations. We took necessary steps to handle SQL exceptions. 
+The initial table creations and initial insertion of data was done directly using sql files on the server side.</p>
+<p><strong>Team Member:</strong> <a href="https://github.com/davidham96">David Hamaoui</a><br>
+<strong>Languages:</strong> Java, SQL(DB2) <br>
+<strong>Technologies:</strong> Server integration(ssh, scp, etc.), relational databases<br>
+<strong>Link:</strong> <a href="https://github.com/Harehn/COMP421">https://github.com/Harehn/COMP421</a></p>
 </div>
 
 <!-- REMOVED LEFT-RIGHT-->
